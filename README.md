@@ -1,5 +1,4 @@
 # Consejito del día
-
 Una Single Page Application (SPA) sencilla y responsiva que muestra consejitos inspiradores de manera aleatoria usando una API externa. 
 
 # Descripción
