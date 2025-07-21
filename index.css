@@ -23,8 +23,6 @@ header {
     position: absolute;
     left:3rem;
     top: 1rem;
-    width: 50px;
-    height: auto;
     width: 250px;
     height: auto;
 
@@ -93,11 +91,13 @@ header {
         align-items: center;
         padding-top: 4rem;
     }
-    .logo{
-        position: static;
-        margin-bottom: 0.5rem;
-        width: 100px;
-    }
+    .logo {
+      position: absolute;
+      left:3rem;
+      top: 1rem;
+      height: auto;
+      width: 250px;
+  }
     header h1{
         font-size: rem;
     }
