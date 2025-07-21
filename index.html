@@ -13,10 +13,17 @@
         <h1>Consejito del día</h1>
     </header>
     <main>
-        <section>
-            <p id="fact">Sorpréndete</p>
-            <button id="fetchBtn">Consejito</button>
-        </section>
+      <section id="consejitosSection">
+        <p id="fact">Sorpréndete</p>
+        <button id="fetchBtn">Consejito</button>
+        <button id="favoriteBtn">⭐</button>
+        <button id="viewFavoritesBtn">Ver Favoritos</button>
+    </section>
+    <section id="favoritesSection" class="favoriteSection">
+      <h1>⭐ Tus consejitos favoritos</h1>
+      <div id="favoritesList"></div>
+      <button id="backBtn">⬅️ Volver</button>
+  </section>
     </main>
     <footer>
         <section class="social-media">
@@ -29,5 +36,7 @@
         </section>
       </footer>
       <script src="./main.js"></script>
+      <script src="favourite.js"></script>
+
 </body>
 </html>
